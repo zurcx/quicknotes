@@ -14,5 +14,6 @@ func main() {
 
 	mux.HandleFunc("/", noteList)
 	mux.HandleFunc("/note/view", noteView)
+	mux.HandleFunc("/note/create", noteCreate)
 
 }
